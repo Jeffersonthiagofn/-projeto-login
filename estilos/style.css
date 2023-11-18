@@ -39,6 +39,7 @@ section#login {
     box-shadow:9px 10px 20px 5px rgba(0, 0, 0, 0.123);
 
     transition: width .2s, height .2s;
+    transition-timing-function: ease;
 }
 
 div#imagem {
@@ -58,9 +59,9 @@ div#formulario {
 div#formulario h1 {
     text-align: center;
     padding-bottom: 15px;
-    font-size: 1.8rem;
+    font-size: 1.5em;
 }
 
 div#formulario p {
-    padding-bottom: 20px;
+    font-size: 0.9em;
 }
