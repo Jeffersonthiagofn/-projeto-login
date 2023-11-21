@@ -90,12 +90,16 @@ div.campo span {
 div.campo input {
     background-color: #dfdfdf;
     font-size: 1em;
-    width: calc(98% - 38px);
+    width: calc(100% - 45px);
     transform: translateY(-14px);
     height: 100%;
     border: none;
     border-radius: 10px;
     padding: 4px;
+}
+
+div.campo input:focus-within {
+    background-color: #fff;
 }
 
 form > input[type=submit] {
